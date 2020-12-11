@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Style for body */
+body {
+    background-color: #d9dcd6;
+}
+/* Style for header */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* Style for h1 in header */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* Changes SEO to different color in header */
+header h1 mark {
+    background-color: #2a607c ;
+    color: #d9dcd6;
+}
+/* Style for navigation bar */
+header nav{
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* Style for navigation bar */
+header nav ul {
+    list-style-type: none;
+} 
+/* displays list inline with left margin */
+ header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+} 
+/* Links white with no underline */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+p {
+    font-size: 16px;
+}
+/* Hero Image */
+figure {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* Hidden Hero Image Caption */
+figcaption {
+    display: none;
+  }
+/* Style for Main */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* Style for sections of main */
+main section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Style for images in main */
+main img {
+    max-height: 200px;
+}
+/* Style for header 2 in main */
+main h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* floats image to left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* floats image to right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* Style for aside detailing benefits */
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* Style for sections in the aside */
+aside section {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Style for h3 in aside */
+aside h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Styles for images in the aside */
+aside img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Style for footer */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* Style for footer h2 */
+footer h2 {
+    font-size: 20px;
+}

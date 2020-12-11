@@ -1,1 +1,3 @@
 # Code-Refactor
+Code Refactoring
+This project involved changing HTML element tags and CSS selectors to semantic tags and semantic selectors. HTML elements were changed to follow a logical structure independent of styling and positioning. Alt attributes were added to all image tags. Heading attributes were positioned to fall in sequential order. Title element was changed to concise and descriptive format. Comments were added with description of elements. Google Chrome and Visual Studio were used as development tools to complete this project.
