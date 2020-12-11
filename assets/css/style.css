@@ -7,6 +7,9 @@
 body {
     background-color: #d9dcd6;
 }
+.seo {
+    color: lightgray;
+}
 /* Style for header */
 header {
     padding: 20px;
@@ -63,13 +66,13 @@ figcaption {
     display: none;
   }
 /* Style for Main */
-main {
+.my-container {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 /* Style for sections of main */
-main section {
+.my-skill {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -78,11 +81,11 @@ main section {
     color: #ffffff;
 }
 /* Style for images in main */
-main img {
+.my-skill img {
     max-height: 200px;
 }
 /* Style for header 2 in main */
-main h2 {
+.my-skill h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -108,17 +111,17 @@ aside {
     background-color: #2589bd;
 }
 /* Style for sections in the aside */
-aside section {
+.my-section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 /* Style for h3 in aside */
-aside h3 {
+.my-section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 /* Styles for images in the aside */
-aside img {
+.my-section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
