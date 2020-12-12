@@ -7,8 +7,9 @@
 body {
     background-color: #d9dcd6;
 }
+/* Changes SEO to different color in header */
 .seo {
-    color: lightgray;
+    color: #d9dcd6;
 }
 /* Style for header */
 header {
@@ -21,11 +22,6 @@ header {
 header h1 {
     display: inline-block;
     font-size: 48px;
-}
-/* Changes SEO to different color in header */
-header h1 mark {
-    background-color: #2a607c ;
-    color: #d9dcd6;
 }
 /* Style for navigation bar */
 header nav{
@@ -65,14 +61,14 @@ figure {
 figcaption {
     display: none;
   }
-/* Style for Main */
-.my-container {
+/* Style for Services Container */
+.Services-container {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-/* Style for sections of main */
-.my-skill {
+/* Style for Services */
+.Services {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -80,12 +76,12 @@ figcaption {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* Style for images in main */
-.my-skill img {
+/* Style for images in Services Container */
+.Services img {
     max-height: 200px;
 }
-/* Style for header 2 in main */
-.my-skill h2 {
+/* Style for header 2 in Services Container */
+.Services h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -99,7 +95,7 @@ figcaption {
     float: right;
     margin-left: 25px;
 }
-/* Style for aside detailing benefits */
+/* Style for aside detailing Benefits */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -110,18 +106,18 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* Style for sections in the aside */
-.my-section {
+/* Style for sections in the Benefits aside */
+.Benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* Style for h3 in aside */
-.my-section h3 {
+/* Style for h3 in Benefits aside */
+.Benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/* Styles for images in the aside */
-.my-section img {
+/* Styles for images in the Benefits aside */
+.Benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
